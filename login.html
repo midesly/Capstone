@@ -2,19 +2,20 @@
 <html lang="en">
     <head>
         <title>
-            Home
+            Login
 
         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link href="css/styles.css" rel="stylesheet">
+        
     </head>
 
-    <body>
+    <body class="login-page">
 
         <nav>
             <a href="index.html">
-                Home
+                A-vinyl
             </a>
             <a href="login.html">
               Login
@@ -22,7 +23,7 @@
             <a href="registration.html">
                 Registration
             </a>
-        <a href="prouductservices.html">
+        <a href="productservices.html">
             Products & Services
             </a>
             <a href="checkout.html">
@@ -30,7 +31,45 @@
             </a>
         </nav>
         <div class="body-text">
-            Enter username & password
+<h2>Login Here</h2>
+<form action="login.php" method="post">
+            <table>
+                <tr>
+                    <td>Username :</td>
+                    <td>
+                        <input type="text" name="user">
+                    </td>
+                </tr>
+                <br></br>
+                </table>
+
+
+                <tr>
+                    <td>Password :</td>
+                    <td>
+                        <input type="password" name="user_pass">
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Remember Me</td>
+                            <input type="checkbox">                     
+                </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" value="Login">
+                    </td>
+                    <br>
+                    <td>
+                        Not yet a member?<a href="registration.html">Register</a>
+                    </td>
+                </tr>
+            </table>
+
+
+</form>
         </div>
     </body>
 </html>

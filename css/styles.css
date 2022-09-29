@@ -1,20 +1,39 @@
 body {
     font-family: sans-serif;
-background-color: aquamarine;
+background-color: black;
+color: silver;
 }
+.login-page{
+    background-color: black;
+}
+.registration-page{
+    background-color: black;
+}
+.productservices-page{
+    background-color: black;
+}
+.checkout-page{
+    background-color: black;
+    
+}
+
 nav a{
     padding: 1em;
     margin: 1px;
     min-width: 300px;
-    background-color: black;
-    color: white;
+    background-color: rgb(85, 74, 12);
+    color: silver;
     text-decoration: none;
     font-size: medium;
     white-space: nowrap;
+    font-family: sans-serif; 
 
 }
 .body-text{
-    font-family: serif;
+    font-family: Cochin;
     margin-top: 1em;
     padding: 1em;
+}
+.download5{
+    width: 600px;
 }
